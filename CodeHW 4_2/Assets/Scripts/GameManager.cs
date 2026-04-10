@@ -41,11 +41,11 @@ public class GameManager : MonoBehaviour
     //***This ended up not being possible because I can't assign the game object button to the location
     //private Dictionary<Location, GameObject> locationButtons = new Dictionary<Location, GameObject>();
     
-    // A dictionary that connections the location to the location's hidden feature text (Ex. "FIREPLACE UNLOCKED")
+    // A dictionary that connections the location to the location's button text (Ex. "There's a fireplace here but I cant get to it.")
     //***this ended up not being totally necessary because im using scritable objects already
     private Dictionary<Location, string> buttonTexts = new Dictionary<Location, string>();
     
-    // A dictionary that connections the location to the location's hidden feature text (Ex. "FIREPLACE UNLOCKED")
+    // A dictionary that connections the location to the location's item's text (Ex. "Take Key?")
     //***this ended up not being totally necessary because im using scritable objects already
     private Dictionary<Location, string> takeItemTexts = new Dictionary<Location, string>();
     
