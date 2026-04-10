@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1ca9d4193a81a44ad7fc15194938a2, type: 3}
+  m_Name: Upstairshall
+  m_EditorClassIdentifier: Assembly-CSharp::Location
+  name: Upstairs Hall
+  firePlaceText: 
+  description: There's a family portrait on the wall. Man, they're odd looking.
+  northLocation: {fileID: 0}
+  westLocation: {fileID: 0}
+  eastLocation: {fileID: 11400000, guid: ff99dc5e2c686fb42a410f27f6833dc5, type: 2}
+  southLocation: {fileID: 11400000, guid: 5ccda0113c0ed264a86e3310e51635cf, type: 2}
+  cameraColor: {x: 0.3, y: 0.3, z: 0.2, w: 0}
+  isLivingroom: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1ca9d4193a81a44ad7fc15194938a2, type: 3}
+  m_Name: Stairway
+  m_EditorClassIdentifier: Assembly-CSharp::Location
+  name: Stairway
+  firePlaceText: 
+  deskText: 
+  waterText: 
+  cabinentText: 
+  crackText: 
+  description: I need to find a way out of here.
+  northLocation: {fileID: 11400000, guid: 4511415646f7e0d4995677b00a56d1f4, type: 2}
+  westLocation: {fileID: 0}
+  eastLocation: {fileID: 11400000, guid: 2f0911683b5e1bd4d9911a755052e1c3, type: 2}
+  southLocation: {fileID: 11400000, guid: 8a4334a9baab5aa42a64ea8ddd571a6c, type: 2}
+  cameraColor: {x: 0.15, y: 0.12, z: 0.1, w: 1}
+  isLivingroom: 0
+  isBedroom: 0
+  isBathroom: 0
+  isBasement: 0
+  isKitchen: 0
+  isStairway: 1

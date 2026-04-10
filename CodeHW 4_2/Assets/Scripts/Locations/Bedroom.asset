@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1ca9d4193a81a44ad7fc15194938a2, type: 3}
+  m_Name: Bedroom
+  m_EditorClassIdentifier: Assembly-CSharp::Location
+  name: Bedroom
+  firePlaceText: 
+  deskText: There's a pair of wirecutters here. I hope that stain isn't what I think
+    it is.
+  waterText: 
+  cabinentText: 
+  crackText: 
+  description: The furniture is covered in sheets. There must be something in here
+    I can use.
+  northLocation: {fileID: 0}
+  westLocation: {fileID: 11400000, guid: 4511415646f7e0d4995677b00a56d1f4, type: 2}
+  eastLocation: {fileID: 0}
+  southLocation: {fileID: 0}
+  cameraColor: {x: 0.3, y: 0.01, z: 0.01, w: 0}
+  isLivingroom: 0
+  isBedroom: 1
+  isBathroom: 0
+  isBasement: 0
+  isKitchen: 0

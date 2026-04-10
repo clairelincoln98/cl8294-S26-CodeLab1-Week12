@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1ca9d4193a81a44ad7fc15194938a2, type: 3}
+  m_Name: Living Room
+  m_EditorClassIdentifier: Assembly-CSharp::Location
+  name: Living Room
+  description: It smells in here, like mildewed funiture and rotted plants. Oddly
+    enough, there are embers still algow in the fireplace.
+  northLocation: {fileID: 11400000, guid: 5ccda0113c0ed264a86e3310e51635cf, type: 2}
+  westLocation: {fileID: 0}
+  eastLocation: {fileID: 11400000, guid: e71bdd54a23fb1543bf96bc2795c6696, type: 2}
+  southLocation: {fileID: 11400000, guid: 8db3ad8346c3fa643a625f1ad260c9fb, type: 2}
+  cameraColor: {x: 0.5, y: 0.3, z: 0.3, w: 1}
+  isLivingroom: 1
+  isBedroom: 0
+  isBathroom: 0
+  isBasement: 0
+  isKitchen: 0
+  isStairway: 0
+  buttonText: I think there's something in there, but I can't get past the metal
+    gate.
+  lockedButtonText: There's something shiny under the embers. I need to put this
+    fire out.
+  takeItemText: There's a key here. Take it?
+  instance: {fileID: 0}

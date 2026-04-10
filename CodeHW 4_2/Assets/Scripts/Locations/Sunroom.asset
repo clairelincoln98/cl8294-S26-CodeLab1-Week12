@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1ca9d4193a81a44ad7fc15194938a2, type: 3}
+  m_Name: Sunroom
+  m_EditorClassIdentifier: Assembly-CSharp::Location
+  name: Sunroom
+  description: The windows are so dirty...so is the light pouring in.
+  northLocation: {fileID: 11400000, guid: 8a4334a9baab5aa42a64ea8ddd571a6c, type: 2}
+  westLocation: {fileID: 0}
+  eastLocation: {fileID: 0}
+  southLocation: {fileID: 0}
+  cameraColor: {x: 0.45, y: 0.3, z: 0.2, w: 1}

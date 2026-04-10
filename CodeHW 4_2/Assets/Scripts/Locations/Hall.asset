@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1ca9d4193a81a44ad7fc15194938a2, type: 3}
+  m_Name: Hall
+  m_EditorClassIdentifier: Assembly-CSharp::Location
+  name: Hall
+  description: There are framed pictures on the walls, but I can't make out the faces.
+  northLocation: {fileID: 11400000, guid: 2f0911683b5e1bd4d9911a755052e1c3, type: 2}
+  westLocation: {fileID: 11400000, guid: 8a4334a9baab5aa42a64ea8ddd571a6c, type: 2}
+  eastLocation: {fileID: 11400000, guid: 78e41cb3121d32e44a13ff97e06688a5, type: 2}
+  southLocation: {fileID: 11400000, guid: c560f872d4c4c1e44b078b9115084ef2, type: 2}
+  cameraColor: {x: 0.9, y: 0.8, z: 0.7, w: 1}
