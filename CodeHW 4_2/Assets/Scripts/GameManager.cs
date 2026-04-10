@@ -167,18 +167,18 @@ public class GameManager : MonoBehaviour
     //player clicks button
     public void ButtonClick(string itemName)
     {
-        if (ButtonLogic.isLocked)
-        {
-            UnlockButtonText(itemName);
-        }
-        else if (ButtonLogic.needsItem)
-        {
-            UnlockItem();
-        }
-        else
-        {
-            
-        }
+        // if (ButtonLogic.isLocked)
+        // {
+        //     UnlockButtonText(itemName);
+        // }
+        // else if (ButtonLogic.needsItem)
+        // {
+        //     UnlockItem();
+        // }
+        // else
+        // {
+        //     
+        // }
         
     }
     
@@ -191,10 +191,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void TakeItemButton(string itemName)
-    {
-        TakeItem(itemName);
-    }
+    // public void TakeItemButton(string itemName)
+    // {
+    //     TakeItem(itemName);
+    // }
     
     //calls grabitem to add item to dictionary
     public void TakeItem(string itemName) 
